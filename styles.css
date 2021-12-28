@@ -80,6 +80,8 @@ body {
 }
 
 /* Content CSS */
+
+/* Information Section */
 .content {
     display: flex;
     padding-top: 40px;
@@ -125,12 +127,15 @@ body {
     color: gray;
 }
 
+/* Quote Section */
+
 /* Footer CSS */
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
     margin-top: auto;
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     height: 100px;
