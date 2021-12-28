@@ -129,6 +129,24 @@ body {
 }
 
 /* Quote Section */
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 120px 250px;
+}
+
+.words {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.credit {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 700;
+}
 
 /* Footer CSS */
 .footer {
